@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login,Chrome 135.0.7049.115,,,28-04-2025 19:00:05,28-04-2025 19:01:00,54.883s,PASSED
+,,,,,,,
+Test Cases/invalid login,Chrome 135.0.7049.115,,,28-04-2025 19:00:06,28-04-2025 19:00:48,41.879s,PASSED
+"openBrowser("""")",Chrome 135.0.7049.115,,,28-04-2025 19:00:07,28-04-2025 19:00:11,4.043s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 135.0.7049.115,,,28-04-2025 19:00:11,28-04-2025 19:00:13,1.302s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/div_Accepted usernames arestandard_userlock_f87578""))",Chrome 135.0.7049.115,,,28-04-2025 19:00:13,28-04-2025 19:00:16,3.211s,PASSED
+"setText(findTestObject(""Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Chrome 135.0.7049.115,,,28-04-2025 19:00:16,28-04-2025 19:00:17,0.844s,PASSED
+"click(findTestObject(""Page_Swag Labs/div_Password for all userssecret_sauce""))",Chrome 135.0.7049.115,,,28-04-2025 19:00:17,28-04-2025 19:00:17,0.393s,PASSED
+"setEncryptedText(findTestObject(""Page_Swag Labs/input_Swag Labs_password""), ""qcu24s4901E3hV1ZYjq30w=="")",Chrome 135.0.7049.115,,,28-04-2025 19:00:17,28-04-2025 19:00:17,0.475s,PASSED
+"click(findTestObject(""Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 135.0.7049.115,,,28-04-2025 19:00:17,28-04-2025 19:00:18,0.425s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909""), ""Epic sadface: Username and password do not match any user in this service"")",Chrome 135.0.7049.115,,,28-04-2025 19:00:18,28-04-2025 19:00:48,30.144s,PASSED
+closeBrowser(),Chrome 135.0.7049.115,,,28-04-2025 19:00:48,28-04-2025 19:00:48,0.305s,PASSED
+,,,,,,,
+Test Cases/login,Chrome 135.0.7049.115,,,28-04-2025 19:00:48,28-04-2025 19:01:00,11.915s,PASSED
+"openBrowser("""")",Chrome 135.0.7049.115,,,28-04-2025 19:00:48,28-04-2025 19:00:50,1.961s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 135.0.7049.115,,,28-04-2025 19:00:50,28-04-2025 19:00:52,1.456s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/div_Accepted usernames arestandard_userlock_0d4679""))",Chrome 135.0.7049.115,,,28-04-2025 19:00:52,28-04-2025 19:00:57,5.479s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Chrome 135.0.7049.115,,,28-04-2025 19:00:57,28-04-2025 19:00:58,0.770s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/div_Password for all userssecret_sauce""))",Chrome 135.0.7049.115,,,28-04-2025 19:00:58,28-04-2025 19:00:59,0.421s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 135.0.7049.115,,,28-04-2025 19:00:59,28-04-2025 19:00:59,0.450s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 135.0.7049.115,,,28-04-2025 19:00:59,28-04-2025 19:01:00,0.484s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Swag Labs/span_Products""), ""Products"")",Chrome 135.0.7049.115,,,28-04-2025 19:01:00,28-04-2025 19:01:00,0.426s,PASSED
+closeBrowser(),Chrome 135.0.7049.115,,,28-04-2025 19:01:00,28-04-2025 19:01:00,0.317s,PASSED
